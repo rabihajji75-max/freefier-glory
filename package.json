@@ -1,0 +1,13 @@
+{
+  "name": "freefire-glory-panel",
+  "version": "1.0.0",
+  "description": "Free Fire Glory Farming Panel",
+  "scripts": {
+    "start": "python backend/app.py",
+    "dev": "live-server frontend"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "@fortawesome/fontawesome-free": "^6.4.0"
+  }
+}
