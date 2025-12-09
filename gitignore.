@@ -1,0 +1,52 @@
+
+**طريقة الإضافة:**
+1. `Create new file`
+2. **اسم الملف:** `README.md`
+3. **انسخ الكود والصقه**
+4. **Commit new file**
+
+---
+
+## **الملف 7: `.gitignore`** (تجاهل الملفات)
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
